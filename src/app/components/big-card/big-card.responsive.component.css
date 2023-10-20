@@ -1,12 +1,14 @@
-.container__big-card {
-    /*border: solid 2px;*/
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;    
+@media  (max-width: 1080px) {
+
+.container__big-card { 
+    width: 62%;
+    margin-left: 15px;
+    margin-right: 10px;        
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+   
 }
 
 .big-card__title {
@@ -16,7 +18,7 @@
 
 .big-card__title > h1 {
     margin-top: 10x;
-    font-size: 35px;
+    font-size: 25px;
     
 }
 
@@ -25,12 +27,13 @@
 }
 
 .big-card__description > p > a {
-    font-size: 30px;
+    font-size: 20px;
     color: gray;
 }
 
 .big-card__photo > img {
     width: 100%;
+    align-items: center;
 }
 
 a {
@@ -43,4 +46,5 @@ a:hover{
     cursor: grab;
     transition: 0.5s ease-in-out;
     transform: scale(1.2);
+}
 }
