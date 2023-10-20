@@ -4,7 +4,7 @@
 }
 
 .container__small-card-content {
-    width: 40%;
+    width: 55%;
     display: flex;
     flex-direction: row;
 }
@@ -27,6 +27,13 @@
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255,0,0);
+    cursor: grab;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
 }
 
 .container__small-card__separator {
